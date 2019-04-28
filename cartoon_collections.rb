@@ -30,7 +30,7 @@ def find_the_cheese(array)
       }
       counter2+=1
     end
-    if matchString!=nil{
+    if matchString!=nil {
       break
     }
     counter+=1
