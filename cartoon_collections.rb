@@ -22,7 +22,7 @@ def find_the_cheese(array)
   includeResult = []
   includeResult = array.collect{|item1| cheese_types.include?(item1)}
   if includeResult.empty?
-    return nil
+    return []
   else
   array[includeResult.find_index {|i| i==true}]
 end
