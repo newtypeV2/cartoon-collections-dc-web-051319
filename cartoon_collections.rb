@@ -25,7 +25,7 @@ def find_the_cheese(array)
   while counter<array.length do
     while counter2<cheese_types do
       if array[counter]==cheese_types[counter2] then
-       matchString=array[counter]
+       matchString=cheese_types[counter2]
        break 
       end
       counter2+=1
