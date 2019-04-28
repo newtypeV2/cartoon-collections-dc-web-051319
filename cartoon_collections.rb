@@ -30,7 +30,7 @@ def find_the_cheese(array)
       end
       counter2+=1
     end
-    if matchString!=nil
+    if matchString == "cheddar" || matchString == "gouda" || matchString == "camembert"
       break
     end
     counter+=1
