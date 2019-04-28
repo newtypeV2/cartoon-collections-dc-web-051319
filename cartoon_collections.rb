@@ -24,14 +24,15 @@ def find_the_cheese(array)
   matchString =nil
   while counter<array.length do
     while counter2<cheese_types do
-      if array[counter]==cheese_types[counter2] {
+      if array[counter]==cheese_types[counter2] then
        matchString=array[counter]
        break 
-      }
+      end
       counter2+=1
     end
     if matchString!=nil
       break
+    end
     counter+=1
   end
   matchString
