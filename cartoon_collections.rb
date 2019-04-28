@@ -23,4 +23,3 @@ def find_the_cheese(array)
   includeResult = array.collect{|item1| cheese_types.include?(item1)}
   array[includeResult.find_index {|i| i==true}]
 end
-end
