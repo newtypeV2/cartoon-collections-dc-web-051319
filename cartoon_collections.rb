@@ -21,7 +21,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   counter = 0
   counter2 = 0
-  matchString =nil
+  matchString = ""
   while counter<array.length do
     while counter2<cheese_types do
       if array[counter]==cheese_types[counter2] then
