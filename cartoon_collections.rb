@@ -37,5 +37,3 @@ def find_the_cheese(array)
   end
   matchString
 end
-
-binding.pry()
