@@ -19,21 +19,5 @@ def find_the_cheese(array)
   # code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  counter = 0
-  counter2 = 0
-  matchString = ""
-  while counter<array.length do
-    while counter2<cheese_types do
-      if array[counter]==cheese_types[counter2] then
-       matchString=cheese_types[counter2]
-       break 
-      end
-      counter2+=1
-    end
-    if matchString == "cheddar" || matchString == "gouda" || matchString == "camembert"
-      break
-    end
-    counter+=1
-  end
-  matchString
+  
 end
