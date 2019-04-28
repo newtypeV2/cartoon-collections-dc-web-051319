@@ -21,5 +21,4 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   includeResult = []
   array[array.collect{|item1| cheese_types.include?(item1)}.find_index{|i| i==true}]
-#  array[includeResult.find_index {|i| i==true}]
 end
