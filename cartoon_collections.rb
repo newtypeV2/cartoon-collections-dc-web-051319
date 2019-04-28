@@ -35,6 +35,7 @@ def find_the_cheese(array)
     end
     counter+=1
   end
-  binding.pry
   matchString
 end
+
+  binding.pry
