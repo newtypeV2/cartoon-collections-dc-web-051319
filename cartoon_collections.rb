@@ -26,3 +26,4 @@ def find_the_cheese(array)
   else
   array[includeResult.find_index {|i| i==true}]
 end
+end
